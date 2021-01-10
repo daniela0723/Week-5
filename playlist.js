@@ -133,7 +133,7 @@ class Menu {
         if (index > -1 && index < this.playlists.length) {
             this.playlists.splice(index, 1);
         }
-        alert(this.selectedPlaylist.name + ' has been deleted!');
+        //alert(this.selectedPlaylist.name + ' has been deleted!');
     }
 
     addSong() {
